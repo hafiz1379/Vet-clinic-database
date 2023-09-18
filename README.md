@@ -143,7 +143,6 @@ Example:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-## 👥 Authors <a name="authors"></a>
 
 👤 **Hafizullah Rasa**
 
