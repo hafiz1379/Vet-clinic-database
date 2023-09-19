@@ -1,5 +1,5 @@
 CREATE TABLE animals (
-    id INTEGER PRIMARY KEY ,
+    id SERIAL PRIMARY KEY,
     name VARCHAR(50),
     date_of_birth DATE,
     escape_attempts INTEGER,
