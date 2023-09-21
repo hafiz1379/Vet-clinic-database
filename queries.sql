@@ -106,6 +106,20 @@ GROUP BY species;
 
 
 -- multiple table
+
+-- Remove column species
+ALTER TABLE animals
+DROP COLUMN species;
+
+-- Add column species_id as a foreign key referencing species table
+ALTER TABLE animals
+ADD COLUMN species_id INTEGER REFERENCES species(id);
+
+-- Add column owner_id as a foreign key referencing owners table
+ALTER TABLE animals
+ADD COLUMN owner_id INTEGER REFERENCES owners(id);
+
+
 -- Query 1: What animals belong to Melody Pond?
 SELECT a.name
 FROM animals a
